@@ -9,3 +9,5 @@ echo "filetype plugin indent on" >> ~/.vimrc
 
 cd ~/.vim/bundle && \
 git clone https://github.com/tpope/vim-sensible.git
+git clone --recurse-submodules https://github.com/python-mode/python-mode.git
+git clone https://github.com/ervandew/supertab.git
