@@ -1,7 +1,7 @@
 all: .vim.done .tmux.done
 
 .system.done:
-	sudo apt-get -y update
+	sudo apt-get -y --allow-releaseinfo-change update
 
 .tmux.done: .system.done
 	sudo apt-get -y install tmux
